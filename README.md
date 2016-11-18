@@ -1,6 +1,8 @@
 # LabVIEW_examples
 This repo contains LabVIEW example code that demonstrates specific functionality.
-The aim is for each example to contain the minimum amount of code to be functionally complete.
+The aim is for each example to contain the minimum amount of code to be functionally complete. 
+
+Feel free to download any of these examples and use them in your own LabVIEW projects, even commercial ones!
 
 All of the examples are self-documented. Comments are provided in the block diagram and the File > VI Properties > Description field.
 
