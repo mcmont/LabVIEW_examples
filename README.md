@@ -2,6 +2,10 @@
 This repo contains LabVIEW example code that demonstrates specific functionality.
 The aim is for each example to contain the minimum amount of code to be functionally complete.
 
+All of the examples are self-documented. Comments are provided in the block diagram and the File > VI Properties > Description field.
+
+Examples comprising multiple files are held in a directory.
+
 ## LabVIEW version
 All examples are provided in LabVIEW 2013 format, unless otherwise specified.
 
