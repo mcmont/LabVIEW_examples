@@ -11,13 +11,21 @@ This example is implemented in LabVIEW 2013, though it should work in later vers
 
 ## Deployment checklist
 a.	Insert the NI 9401 DIO module into slot 1.
+
 b.	Physically connect the CompactRIO to the host PC using a crossover Ethernet cable.
+
 c.	In Windows Device Manager set the host PC IP address to 192.168.0.1 on the Ethernet interface.
-d.	Connect the power to the CompactRIO and power it up
+
+d.	Connect the power to the CompactRIO and power it up.
+
 e.	In NI Measurement and Automation Explorer setup the CompactRIO to use static IP address 192.168.0.2, subnet mask 255.255.255.0, Gateway and DNS server 0.0.0.0 and save the settings. 
+
 f.	Install CompactRIO Support 13.0 and NI-RIO 13.0 onto the device.
+
 g.	Power down the CompactRIO and physically connect the hardware that will receive the pulses to the NI 9401 DIO module. The NI 9924 Terminal Block provides a convenient way to break out the connections.
+
 h.	Verify that the device is present in Measurement and Automation Explorer.
+
 i.	Compile the FPGA VI and run it.
 
 ## Disclaimer
